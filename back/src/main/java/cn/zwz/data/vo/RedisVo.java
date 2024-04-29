@@ -5,18 +5,18 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
- * @author 郑为中
+ * @author myd
  */
 @Data
 @AllArgsConstructor
 public class RedisVo {
 
-    @ApiModelProperty(value = "Redis键")
-    private String key;
+		@ApiModelProperty(value = "Redis键")
+		private String key;
 
-    @ApiModelProperty(value = "Redis值")
-    private String value;
+		@ApiModelProperty(value = "Redis值")
+		private String value;
 
-    @ApiModelProperty(value = "保存秒数")
-    private Long expireTime;
+		@ApiModelProperty(value = "保存秒数")
+		private Long expireTime;
 }

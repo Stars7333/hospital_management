@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
- * @author 郑为中
+ * @author myd
  */
 @Data
 @Accessors(chain = true)
@@ -15,9 +15,9 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 public class PermissionDTO {
 
-    @ApiModelProperty(value = "页面路径")
-    private String path;
+		@ApiModelProperty(value = "页面路径")
+		private String path;
 
-    @ApiModelProperty(value = "菜单标题")
-    private String title;
+		@ApiModelProperty(value = "菜单标题")
+		private String title;
 }

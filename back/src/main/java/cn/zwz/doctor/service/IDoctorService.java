@@ -5,7 +5,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
  * 医生接口
- * @author 郑为中
+ *
+ * @author myd
  */
 public interface IDoctorService extends IService<Doctor> {
 

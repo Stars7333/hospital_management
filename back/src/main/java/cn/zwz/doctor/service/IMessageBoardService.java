@@ -5,7 +5,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
  * 留言板接口
- * @author 郑为中
+ *
+ * @author myd
  */
 public interface IMessageBoardService extends IService<MessageBoard> {
 

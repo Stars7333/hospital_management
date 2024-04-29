@@ -6,20 +6,20 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @author 郑为中
+ * @author myd
  */
 @Data
-public class VaptchaSetting implements Serializable{
+public class VaptchaSetting implements Serializable {
 
-    @ApiModelProperty(value = "键")
-    private String secretKey;
+		@ApiModelProperty(value = "键")
+		private String secretKey;
 
-    @ApiModelProperty(value = "VID")
-    private String vid;
+		@ApiModelProperty(value = "VID")
+		private String vid;
 
-    @ApiModelProperty(value = "是否改变secretkey")
-    private Boolean changed;
+		@ApiModelProperty(value = "是否改变secretkey")
+		private Boolean changed;
 
-    @ApiModelProperty(value = "场景")
-    private String scene;
+		@ApiModelProperty(value = "场景")
+		private String scene;
 }

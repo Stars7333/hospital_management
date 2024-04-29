@@ -5,7 +5,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
  * 科室数据处理层
- * @author 郑为中
+ *
+ * @author myd
  */
 public interface HospitalSubjectMapper extends BaseMapper<HospitalSubject> {
 

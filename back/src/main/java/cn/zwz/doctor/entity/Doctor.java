@@ -15,7 +15,7 @@ import javax.persistence.Transient;
 import java.math.BigDecimal;
 
 /**
- * @author 郑为中
+ * @author myd
  */
 @Data
 @Entity

@@ -6,29 +6,29 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @author 郑为中
+ * @author myd
  */
 @Data
-public class SmsSetting implements Serializable{
+public class SmsSetting implements Serializable {
 
-    @ApiModelProperty(value = "短信配置名称")
-    private String serviceName;
+		@ApiModelProperty(value = "短信配置名称")
+		private String serviceName;
 
-    @ApiModelProperty(value = "键KEY")
-    private String secretKey;
+		@ApiModelProperty(value = "键KEY")
+		private String secretKey;
 
-    @ApiModelProperty(value = "钥匙AK")
-    private String accessKey;
+		@ApiModelProperty(value = "钥匙AK")
+		private String accessKey;
 
-    @ApiModelProperty(value = "场景")
-    private Integer type;
+		@ApiModelProperty(value = "场景")
+		private Integer type;
 
-    @ApiModelProperty(value = "签名内容")
-    private String signName;
+		@ApiModelProperty(value = "签名内容")
+		private String signName;
 
-    @ApiModelProperty(value = "是否改变secrectKey")
-    private Boolean changed;
+		@ApiModelProperty(value = "是否改变secrectKey")
+		private Boolean changed;
 
-    @ApiModelProperty(value = "模版code")
-    private String templateCode;
+		@ApiModelProperty(value = "模版code")
+		private String templateCode;
 }

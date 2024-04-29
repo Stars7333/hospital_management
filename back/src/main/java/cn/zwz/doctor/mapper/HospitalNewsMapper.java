@@ -7,7 +7,8 @@ import java.util.List;
 
 /**
  * 医院新闻数据处理层
- * @author 郑为中
+ *
+ * @author myd
  */
 public interface HospitalNewsMapper extends BaseMapper<HospitalNews> {
 

@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
- * @author 郑为中
+ * @author myd
  */
 @Data
 @Accessors(chain = true)
@@ -15,12 +15,12 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 public class RoleDTO {
 
-    @ApiModelProperty(value = "角色名称")
-    private String name;
+		@ApiModelProperty(value = "角色名称")
+		private String name;
 
-    @ApiModelProperty(value = "角色ID")
-    private String id;
+		@ApiModelProperty(value = "角色ID")
+		private String id;
 
-    @ApiModelProperty(value = "角色备注")
-    private String description;
+		@ApiModelProperty(value = "角色备注")
+		private String description;
 }

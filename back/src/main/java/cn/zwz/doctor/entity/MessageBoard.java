@@ -13,7 +13,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 /**
- * @author 郑为中
+ * @author myd
  */
 @Data
 @Entity
@@ -24,21 +24,21 @@ import javax.persistence.Table;
 @ApiModel(value = "留言板")
 public class MessageBoard extends ZwzBaseEntity {
 
-    private static final long serialVersionUID = 1L;
+		private static final long serialVersionUID = 1L;
 
-    @ApiModelProperty(value = "留言人ID")
-    private String userId;
+		@ApiModelProperty(value = "留言人ID")
+		private String userId;
 
-    @ApiModelProperty(value = "留言人")
-    private String userName;
+		@ApiModelProperty(value = "留言人")
+		private String userName;
 
-    @ApiModelProperty(value = "留言时间")
-    private String date;
+		@ApiModelProperty(value = "留言时间")
+		private String date;
 
-    @Length(max = 1024)
-    @ApiModelProperty(value = "留言内容")
-    private String content;
+		@Length(max = 1024)
+		@ApiModelProperty(value = "留言内容")
+		private String content;
 
-    @ApiModelProperty(value = "答复ID")
-    private String replyId;
+		@ApiModelProperty(value = "答复ID")
+		private String replyId;
 }

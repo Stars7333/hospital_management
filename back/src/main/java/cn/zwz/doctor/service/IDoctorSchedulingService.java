@@ -5,7 +5,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
  * 医生排班接口
- * @author 郑为中
+ *
+ * @author myd
  */
 public interface IDoctorSchedulingService extends IService<DoctorScheduling> {
 
