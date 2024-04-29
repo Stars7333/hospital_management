@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "intercept.verification",
+      "type": "java.lang.String",
+      "description": "Description for intercept.verification."
+    },
+    {
+      "name": "intercept.wechat",
+      "type": "java.lang.String",
+      "description": "Description for intercept.wechat."
+    },
+    {
+      "name": "intercept.wechat",
+      "type": "java.lang.String",
+      "description": "Description for intercept.wechat."
+    }
+  ]
+}
